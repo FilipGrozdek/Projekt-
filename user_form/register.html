@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>User Form</title>
+  </head>
+  <body>
+    <header>
+      <img src="pictures/header.jpg">
+      <h1>Formula One Racing Blog</h1>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="fetch_news.php">News</a>
+    <a href="insert_news.php">Add News</a>
+    <a href="drivers.php">Drivers</a>
+    <a href="contact.html">Contact</a>
+    <a href="register.html">Register</a>
+    <a href="login.html">Log In</a>
+</nav>
+    <div class="card">
+      <h1>Register</h1>
+      <form id="userForm" action="register.php" method="POST">
+        <div class="col">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            autocomplete="off"
+          />
+        </div>
+        <div class="col">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <button type="submit" class="primary">Register</button>
+      </form>
+    </div>
+  </body>
+</html>
