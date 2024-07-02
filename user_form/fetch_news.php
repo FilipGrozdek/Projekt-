@@ -23,11 +23,12 @@ $newsArticles = fetchAllNews($pdo);
     </header>
     <nav>
         <a href="index.html">Home</a>
-        <a href="news.html">News</a>
+        <a href="fetch_news.php">News</a>
+        <a href="insert_news.php">Add News</a>
         <a href="drivers.php">Drivers</a>
-        <a href="teams.html">Teams</a>
-        <a href="schedule.html">Schedule</a>
         <a href="contact.html">Contact</a>
+        <a href="register.html">Register</a>
+        <a href="login.html">Log In</a>
     </nav>
     <div class="container">
         <h1>Latest News</h1>
